@@ -1,0 +1,101 @@
+/**
+Arief Setya 201543501125 X5H Unindra
+**/
+
+*{
+	outline: none;
+}
+body{
+	margin: 0;
+	font-family: Candara;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+h2{
+	font-size: 20pt;
+}
+.content_main{
+	width: 800px;
+	position: relative;
+	float: left;
+	border-right: 1px solid #2d89ef;
+}
+ul{
+	list-style-type: none;
+}
+.div_content{
+	display: block;
+	padding-top: 10px;
+}
+.padding10{
+	padding: 10px;
+}
+.display_block{
+	display: block;
+}
+.content_side{
+	width: 190px;
+	vertical-align: top;
+	position: relative;
+	float: right;
+}
+.footer{
+	display: block;
+	width: 1000px;
+	clear: both;
+	border-top:1px solid #2d89ef;
+}
+.footer_menu{
+	float: right;
+	margin: 20px;
+}
+.top-gray{
+	width:100%;
+	height: 12px;
+	background:#333;
+}
+.header{
+	width:1000px;
+	margin: 0 auto;
+}
+.menu{
+	background: #2d89ef;
+	border:1px solid #2d89ef;
+}
+.menu ul{
+	margin: 0 15px;
+	padding: 0;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px 25px;
+}
+.menu ul li:hover,.active{
+	background: blue;
+}
+.menu ul li a{
+	color: #fff;
+}
+.big-logo{
+	font-size: 30pt;
+	color:#333;
+	padding: 20px 0;
+	font-weight: bold;
+}
+
+
+.content{
+	width:1000px;
+	margin: 0 auto;
+}
+.child_article{
+	width: 33%;
+	float: left;
+}
+.child_article:hover{
+	cursor: pointer;
+	background: #eee;
+}
